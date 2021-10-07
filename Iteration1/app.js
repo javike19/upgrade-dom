@@ -1,8 +1,10 @@
 //1.1
-console.log(document.querySelector(".showme"));
+let myButton = document.querySelector(".showme")
+console.log(myButton);
 
 //1.2
-console.log(document.querySelector("#pillado"));
+let myHone = document.querySelector("#pillado");
+console.log(myHone);
 
 //1.3
 let p = document.querySelectorAll("p");
